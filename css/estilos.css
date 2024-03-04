@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'vanessa';
+    src: url('../images/DS-DIGII.TTF');
+}
+
+
+body{
+    height: 100vh;
+    background: url('../images/praia.jpg');  /* adicionar foto no background */
+    background-size: cover; /* ajustar tamanho da foto na página */
+    background-attachment: fixed; /* background travado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 400px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.473);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    gap: 5px;
+    font-family: 'vanessa';
+}
+
+.central div{
+    width: 100px;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
